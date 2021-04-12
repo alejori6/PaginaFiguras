@@ -1,0 +1,91 @@
+nav {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.menu li {
+    width: 10%;
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.logo {
+    flex-grow: 5;
+}
+
+.logo img {
+    width: 20%;
+    height: auto;
+}
+
+.menu a:hover {
+    background-color: white;
+    border: 5px white solid;
+    border-radius: 5px;
+    color: black;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: black;
+    border: wheat;
+    
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 2%;
+}
+
+.cuadrado {
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid #428bca;
+    background: #428bca;
+
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 2%;
+}
+
+.triangulo-tricolor {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid #428bca;
+    border-top: 50px solid #f0ad4e;
+    border-bottom: 50px solid #d9534f;
+
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 2%; 
+}
+
+.circulo-tricolor {
+    width:0;
+    height:0;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #f0ad4e ;
+    border-left: 50px solid #428bca;
+    border-bottom: 50px solid #d9534f;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 2%;
+}
