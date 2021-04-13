@@ -1,0 +1,16 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 2%;
+}
+

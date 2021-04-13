@@ -1,40 +1,30 @@
-nav {
-    background-color: black;
-    color: white;
-    height: 100px;
-}
 
 .menu {
     display: flex;
-    align-items: center;
-    padding-top: 2%;
+    justify-content: center; 
+    width: 1100px;
+    height: 100px;
+    border: 5px red solid;
+    border-radius: 10px;
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
 }
 
 .menu li {
-    width: 10%;
+    width: 15%;
     list-style: none;
 }
-
 .menu a {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid #ffffff;
+    padding: 15px;
+    background-color: #000000;
+    color: #ff0000;
     text-decoration: none;
-}
-
-.logo {
-    flex-grow: 5;
-}
-
-.logo img {
-    width: 20%;
-    height: auto;
-}
-
-.menu a:hover {
-    background-color: white;
-    border: 5px white solid;
-    border-radius: 5px;
-    color: black;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
 }
 
 .circulo {
@@ -44,11 +34,12 @@ nav {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: black;
-    border: wheat;
+    border: #d9534f;
     
     margin-left: 50%;
     margin-right: 50%;
     margin-top: 2%;
+    box-shadow: 10px 5px 10px gray;
 }
 
 .cuadrado {
@@ -60,6 +51,7 @@ nav {
     margin-left: 50%;
     margin-right: 50%;
     margin-top: 2%;
+    box-shadow: 10px 5px 10px gray;
 }
 
 .triangulo-tricolor {
@@ -72,6 +64,7 @@ nav {
     margin-left: 50%;
     margin-right: 50%;
     margin-top: 2%; 
+    box-shadow: 10px 5px 10px gray;
 }
 
 .circulo-tricolor {
